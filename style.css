@@ -98,7 +98,7 @@ a:link {
 
 /*==========Maps=================*/
 
-/* Style the search field */
+/* Style the search field
 form.example input[type=text] {
   padding: 10px;
   font-size: 17px;
@@ -108,7 +108,7 @@ form.example input[type=text] {
   background: #f1f1f1;
 }
 
-/* Style the submit button */
+Style the submit button
 form.example button {
   float: left;
   width: 20%;
@@ -117,7 +117,7 @@ form.example button {
   color: white;
   font-size: 17px;
   border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
+  border-left: none; Prevent double borders
   cursor: pointer;
 }
 
@@ -125,7 +125,7 @@ form.example button:hover {
   background: #727272;
 }
 
-/* Clear floats */
+Clear floats
 form.example::after {
   content: "";
   clear: both;
@@ -159,10 +159,22 @@ h3{
 
 * {
   box-sizing: border-box;
-}
+} */
 
 /* Always set the map height explicitly to define the size of the div
 * element that contains the map. */
+
+
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      
+     
+
+
 #map {
   position: absolute;
   height: 100%;
@@ -171,9 +183,16 @@ h3{
 }
 /* Optional: Makes the sample page fill the window. */
 
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 table {
   font-size: 12px;
 }
+
 
 #listing {
   position: absolute;
@@ -196,18 +215,18 @@ table {
 }
 #locationField {
   position: absolute;
-  width: 400px;
+  width: 190px;
   height: 25px;
-  left: 20px;
-  top: 255px;
+  left: 108px;
+  top: 0px;
   z-index: 5;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 #controls {
   position: absolute;
-  left: 440px;
-  width: 390px;
-  top: 255px;
+  left: 300px;
+  width: 140px;
+  top: 0px;
   z-index: 5;
   background-color: #fff;
 }
@@ -296,6 +315,10 @@ color: #6666ff;
   border-style: outset;
 }
 
+#alg1, #alg2, #geo, #trig, #precalc, #stats {
+  text-align: center;
+}
+
 /*========English===========*/
 
 .English{
@@ -345,10 +368,11 @@ color: #6666ff;
   font-family: "Merriweather", serif;
   text-align: center;
   font-size: 50px;
-  
-
 }
 
+#computerscienceall, #physicsall, #chemistryall, #geologyall {
+  text-align: center;
+}
 
 
 
